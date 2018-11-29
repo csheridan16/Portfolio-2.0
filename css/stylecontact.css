@@ -1,0 +1,135 @@
+
+div#navigation{    
+    background-color: #e49600;  
+    padding-bottom: 40px;
+    color: #000;    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;  
+
+  }
+
+
+#nav{grid-column: 3/9;
+        margin-top: 10px;
+        margin-left: 250px;
+        margin-bottom: -50px;
+    }
+
+a:visited{color: #e49600;
+       background-color: #e49600;}
+a:hover{color: #e49600;
+        background-color: #e49600;}
+
+ 
+
+ 
+
+
+  div#navigation ul li{
+    display: inline-block;
+ 
+
+ 
+}
+
+div#navigation ul li a{
+  border-right: 2px solid #ffffff;  
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: avenir;    
+   
+
+}
+
+/* -----------top------------- */
+
+#background{background-color: #e49600;}
+
+
+
+
+/* -----------fonts------------- */
+
+h2{font-family: 'Avenir';
+   font-weight: 900;
+   color: #e49600; 
+   font-size: 4em;
+   text-align: center;}
+p{color: #000;
+  font-family: 'Avenir';
+  font-weight: 800;}
+
+
+/* -----------contact------------- */
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e49600;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #e49600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #e49600;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
