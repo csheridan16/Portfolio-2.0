@@ -73,20 +73,20 @@ div#navigation ul li a{
 div#links{
     position: relative;
     top: -160px;
-    left: 550px;
+    left: 650px;
     z-index: 7;}
 
 div#links2{
     position: relative;
     z-index: 7;
     top: -180px;
-    left: 200px;}
+    left: 300px;}
 
 div#links3{
     position: relative;
     z-index: 7;
     top: -240px;
-    left: 600px;}
+    left: 700px;}
 
 div#space{position: absolute;
           top: 140px;
@@ -120,19 +120,89 @@ h1{font-family: 'Avenir';
 }
 
 h2{color: #ffffff;
-   text-align:left;
+   text-align:center;
    font-size: 2em;
    padding-left: 20px;    
   }
 
 
 p{color: #ffffff;
+  text-align: center;    
   padding-left:30px;
   font-family: 'Avenir';
   font-weight: 800;}
 
+/* ------------animations for links------------- */
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.7;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
 
 
+
+
+/* ------------animations for projects------------- */
+
+.container2 {
+  position: relative;
+  width: 90%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
 /* ------------introduction------------- */
@@ -140,6 +210,7 @@ p{color: #ffffff;
 div#intro{background-color: #000000;
           margin-bottom: -20px;
           font-family: 'Avenir';
+          
           }
 
 
@@ -174,16 +245,19 @@ div#projects{
 
     grid-column: 2 / 5;
     margin-top: 0px;
+    padding-left: 10px;
 }
 
 .project2{
-    grid-column: 5 / 7;
+    grid-column: 5 / 8;
     margin-top: 0px;
+    padding-left: 10px;
   }
 
 .project3  {
         grid-column: 8/ 10;
-        margin-top: 0px;    
+        margin-top: 0px; 
+        padding-left: 10px;
     }   
 
 .projectlink{text-align: center;
@@ -203,28 +277,31 @@ div#footer{
     grid-template-columns: 10% 10% 10% 10% 10%  10% 10% 10% 10% 10%; 
     grid-template-rows: 20% 20% 20% 20% 20%; }
 
-.monogram1{grid-column: 1/2;
-           grid-row: 1/5;
+.monogram1{grid-column: 2/3;
+           grid-row: 1/4;
+           padding-top: 30px
             }
 
 #email{grid-column: 4/9;
        grid-row: 2/3;
-      padding-left: 80px;}
+      padding-left: 50px;}
 
 .site1{grid-column: 4/9;
        grid-row: 3/4;
-       padding-left: 80px;}
+       padding-left: 50px;}
 .site2{grid-column: 5/9;
        grid-row: 3/4;
-       padding-left: 70px;}
-.site3{grid-column: 5/9;
-       grid-row: 3/4;
-       padding-left: 160px;}
+       padding-left: 10px;}
+.site3{grid-column: 6/9;
+       grid-row: 4/5;
+       padding-left: 10px;}
 .site4{grid-column: 5/9;
-       grid-row: 3/4;
+       grid-row: 4/;
        padding-left: 230px;}
 
 .navigation2{grid-column: 8/9;
-             grid-row: 2/3;}
+             grid-row: 2/3;
+             font-family: avenir;
+             }
 
 
