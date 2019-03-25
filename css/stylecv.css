@@ -43,7 +43,48 @@ div#navigation ul li a{
 
 }
 
-/* -----------background------------- */
+<body style="margin: 0;">
+
+/* -----------footer------------- */
+div#footer {   
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 6em;
+  background-color: #000000;  
+}
+.icons{margin-top: -1em;
+       margin-left: 25em;
+         
+       }
+
+h4{text-align: center;
+   font-size: 2.8em;
+    font-family: 'Avenir';
+    font-weight: 900;
+    color: #e49600;
+    margin-bottom: 1em;
+    margin-top: -2em;
+}
+
+
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
 
 
 
