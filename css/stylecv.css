@@ -68,6 +68,7 @@ div#navigation ul li a{
 /* -----------footer------------- */
 div#footer {   
   position: absolute;
+  margin-top: 65em;    
   right: 0;
   left: 0;
   padding: 6em;
@@ -108,7 +109,24 @@ h4{text-align: center;
 
 
 
+div#contentCV{
+          display: grid;
+          grid-template-columns: 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555% 5.555%;
+          grid-template-rows: 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px 55px;
+          background-color: #fff;}    
+    
+     
 
+  #side{
+    grid-column: 0/1;
+    grid-row-start: 12;
+  
+  }
+
+  #cv{
+    grid-column:  5/ 6;
+    grid-row-start: 12;
+    box-shadow: 5px 10px;}
 
 
 

@@ -1,6 +1,5 @@
 
-
-div#navigation{  
+div#navigation{
     background-color: #000000;
     padding-bottom: 40px;
     color: #000;    
@@ -8,7 +7,6 @@ div#navigation{
     grid-template-columns: 20% 20% 20% 20% 20%;
 
   }
-
 
 
 
@@ -49,26 +47,8 @@ div#navigation ul li a{
 
 
 
-#top, #bottom, #left, #right {
-	background: #e49600;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
-
-
 /* ------------background at top------------- */
+
 div#links{
     position: relative;
     top: -160px;
@@ -92,7 +72,9 @@ div#space{position: absolute;
           z-index: 1;
          }
 
-div#back1{position: absolute;
+div#back1{
+          margin: 0 auto;
+          position: absolute;
           top: 100px;
           z-index: 3;
          }

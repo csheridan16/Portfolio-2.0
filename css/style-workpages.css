@@ -1,0 +1,220 @@
+
+div#navigation{    
+    background-color: #09081f;  
+    padding-bottom: 40px;
+    color: #000;    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;  
+
+  }
+
+
+#nav{grid-column: 3/9;
+        margin-top: 10px;
+        margin-left: 250px;
+        margin-bottom: -50px;
+    }
+
+ 
+
+ 
+
+
+  div#navigation ul li{ 
+    display: inline-block;
+ 
+
+ 
+}
+
+div#navigation ul li a{
+  border-right: 2px solid #ffffff;    
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: avenir;    
+   
+
+}
+
+/* Overline From Left */
+.hvr-overline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-overline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #e49600;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
+  right: 0;
+}
+
+
+/* -----------for icons------------- */
+
+
+h5{font-family: 'Avenir';
+   font-weight: 900;
+   color: #e49600; 
+   font-size: 4em;
+   margin-top: -289px;}
+
+div#navphoto{padding-bottom: 70px;
+             background-color: #000000;}
+
+div#luchadorheading{padding-left: 307px;}
+div#luchadorfinished{padding-left: 360px;
+                         background-color: #0025bd;
+                         margin-top: -63px;
+                         }
+
+div#dayofthedeadfinished{padding-left: 360px;
+                         background-color: #aa0098;
+                         margin-top: -63px;
+                         }
+div#deadheading{padding-left: 400px;
+                }
+
+
+div#headingnative{padding-left: 260px;}
+div#nativeamericanfinished{padding-left: 360px;
+                         background-color: #f36a0c;
+                         margin-top: -63px;
+                         }
+
+div#headingdoctor{padding-left: 400px;}
+div#doctorfinished{padding-left: 360px;
+                         background-color: #3f0707;
+                         margin-top: -63px;
+                         }
+
+div#headingknight{padding-left: 300px;}
+div#knightfinished{padding-left: 360px;
+                         background-color: #178002;
+                         margin-top: -63px;
+                         }
+
+div#jesterheading{padding-left: 400px;}
+div#jesterfinished{padding-left: 360px;
+                         background-color: #671ba8;
+                         margin-top: -63px;
+                         }
+
+div#headingviking{padding-left: 335px;}
+div#vikingfinished{padding-left: 360px;
+                         background-color: #42adf2;
+                         margin-top: -63px;
+                         }
+
+div#headingspartan{padding-left: 400px;}
+div#spartanfinished{padding-left: 360px;
+                         background-color: #3f3e57;
+                         margin-top: -63px;
+                         }
+
+div#headingsamurai{padding-left: 283px;}
+div#samuraifinished{padding-left: 360px;
+                         background-color: #7b1115;
+                         margin-top: -63px;
+                         }
+
+div#headingincan{padding-left: 400px;}
+div#incanfinished{padding-left: 360px;
+                         background-color: #166068;
+                         margin-top: -63px;
+                         }
+
+div#headingegyptian{padding-left: 230px;}
+div#egyptianfinished{padding-left: 360px;
+                         background-color: #ffb002;
+                         margin-top: -63px;
+                         }
+
+div#headingafrican{padding-left: 400px;}
+div#africanfinished{padding-left: 360px;
+                         background-color: #381d55;
+                         margin-top: -63px;
+                         }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* -----------monogram page------------- */
+
+div#monogramheading{padding-left: 400px;}
+
+div#monogramheading2{padding-left: 450px;
+                     background-color: #e49600;
+                     margin-top: -50px; }
+
+/* -----------footer------------- */
+div#footer {   
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 6em;
+  background-color: #000000;  
+}
+.icons{margin-top: -1em;
+       margin-left: 25em;
+         
+       }
+
+h4{text-align: center;
+   font-size: 2.8em;
+    font-family: 'Avenir';
+    font-weight: 900;
+    color: #e49600;
+    margin-bottom: 1em;
+    margin-top: -2em;
+}
+
+
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+ 
+
+
+
+
+
+
+
+
