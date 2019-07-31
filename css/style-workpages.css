@@ -1,3 +1,7 @@
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 div#navigation{    
     background-color: #09081f;  
@@ -71,6 +75,7 @@ div#navigation ul li a{
 
 /* -----------for icons------------- */
 
+#process{padding: 4em;}
 
 h5{font-family: 'Avenir';
    font-weight: 900;
@@ -82,10 +87,8 @@ div#navphoto{padding-bottom: 70px;
              background-color: #000000;}
 
 div#luchadorheading{padding-left: 307px;}
-div#luchadorfinished{padding-left: 360px;
-                         background-color: #0025bd;
-                         margin-top: -63px;
-                         }
+div#luchadorfinished{ background-color: #0025bd;
+                      margin-top: -63px;}
 
 div#dayofthedeadfinished{padding-left: 360px;
                          background-color: #aa0098;
